@@ -79,7 +79,7 @@ def main():
     message = write_iex_quote(iex_quote, message, "VOO")
 
     iex_series = getSeries("BA", "1y")
-    x = np.linspace(0, 252, 253)
+    x = np.linspace(0, 252, 252)
     plt.plot(x, iex_series, label="BA")
     plt.xlabel('1 Year')
     plt.ylabel('Price ($)')

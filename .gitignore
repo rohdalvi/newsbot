@@ -1,2 +1,6 @@
 api_list.txt
 credentials.json
+__pycache__/email.cpython-37.pyc
+__pycache__/iex.cpython-37.pyc
+__pycache__/nyt.cpython-37.pyc
+__pycache__/api_fetch.cpython-37.pyc

@@ -7,4 +7,4 @@ def getNYT_API_KEY():
 def readAPI(x):
     f = open("api_list.txt", "r")
     lines = f.readlines()
-    return lines(x)
+    return lines[x].translate({ord('\n'): None})
